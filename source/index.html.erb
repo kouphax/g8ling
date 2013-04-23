@@ -1,0 +1,56 @@
+---
+layout: false
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <%= stylesheet_link_tag 'bootstrap', 'flat-ui' %>
+    <%= favicon_tag 'images/favicon.ico' %>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <%= javascript_include_tag "html5shiv" %>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="span12" style="padding-top:30px;padding-bottom:30px; text-align:center;">
+          <h1 class="demo-logo">
+            g8ling
+            <small>a catalog of giter8 templates</small>
+          </h1>
+        </div>
+      </div>
+
+      
+      <div class="row">
+          <div class="span8 offset2">
+            <input type="text" value="" id="filter" placeholder="Keyword Search" class="span8" style="font-size:1.8em;line-height:1.8em;height:1.8em; border:1px solid #aaa;">
+          </div>
+      </div>
+      
+      <% repos.each do |repo| %>
+        <div class="row repo" style="margin-top:20px;" data-keywords="<%=keywords repo%>">
+          <div class="span8 offset2">
+            <div class="tile">
+              <h2><%=repo["repo"]%></h2>
+              <h4><%=repo["desc"]%></h4>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <!-- Load JS here for greater good =============================-->
+    <%= javascript_include_tag 'jquery-1.8.2.min', "jquery-ui-1.10.0.custom.min", "jquery.dropkick-1.0.0", "custom_checkbox_and_radio", "custom_radio", "jquery.tagsinput", "bootstrap-tooltip", "jquery.placeholder", "application"   %>
+    <!--[if lt IE 8]>
+      <%= javascript_include_tag 'icon-font-ie7', "icon-font-ie7-24"  %>
+    <![endif]-->
+  </body>
+</html>

@@ -1,0 +1,115 @@
+repos:
+  - repo: gseitz/android-sbt-project 
+    desc: sbt project for Android
+    tags: 
+      - android
+      - java
+      - sbt
+
+  - repo: n8han/giter8 
+    desc: sbt project for new giter8 templates
+
+  - repo: n8han/unfiltered-netty 
+    desc: sbt project for Unfiltered with Netty
+
+  - repo: softprops/unfiltered 
+    desc: sbt project for Unfiltered with Jetty
+
+  - repo: mindcandy/unfiltered-rest-gatling 
+    desc: sbt project for Unfiltered with Netty, Gatling load testing, and Specs2
+
+  - repo: softprops/chrome-plugin 
+    desc: Google Chrome Plugin g8 template
+
+  - repo: jrudolph/scalac-plugin 
+    desc: sbt project for Scala Compiler Plugins
+
+  - repo: chrislewis/unfiltered-gae 
+    desc: sbt project for Unfiltered on Google App Engine
+
+  - repo: chrislewis/basic-project 
+    desc: bootstrapped sbt project with simple configuration
+
+  - repo: philcali/lwjgl-project 
+    desc: sbt project with LWJGL integration
+
+  - repo: pk11/pinky 
+    desc: sbt project template for pinky projects
+
+  - repo: ajhager/libgdx-sbt-project 
+    desc: sbt project for libgdx
+
+  - repo: scalatra/scalatra-sbt 
+    desc: Basic Scalatra template using SBT 0.10.x.
+
+  - repo: JanxSpirit/scalatra-mongodb 
+    desc: template for a web application using Scalatra, Casbah and MongoDB - builds with SBT 0.11.x
+
+  - repo: tabbykitten/android-scala-app 
+    desc: SBT template for Android in Scala, use Eclipse layout & android-plugin & Scala libs installer
+
+  - repo: anvie/spray-rest-sbt-0.11.2 
+    desc: SBT template for Spray Rest Sbt 0.11.2 included eclipse and idea plugins.
+
+  - repo: eltimn/lift-mongo 
+    desc: Template to get a Lift-MongoDB webapp up and running quickly.
+
+  - repo: ripla/vaadin-scala 
+    desc: Template to easily get started with a Scala Vaadin project using the Scaladin add-on.
+
+  - repo: snowdale/finagle-thrift 
+    desc: xsbt template for Finagle Thrift app using Scrooge.
+
+  - repo: akollegger/unfiltered-neo4j-on-heroku 
+    desc: Unfiltered, dispatch to Neo4j, host on Heroku
+
+  - repo: jrevault/scalatra-squeryl.g8 
+    desc: SBT, Scalatra, Squeryl with usage samples, includes several plugins
+
+  - repo: exu/phalcon.g8.git 
+    desc: CPhalcon basic template
+
+  - repo: jackywyz/sbtweb-app.g8.git 
+    desc: sbt web project basic template
+
+  - repo: mads379/lift-blank.g8 
+    desc: Liftweb minimalistic project
+
+  - repo: typesafehub/scala-sbt
+    desc: Plain scala project template
+
+  - repo: typesafehub/akka-scala-sbt 
+    desc: Akka project template for Scala (and sbt) users
+
+  - repo: typesafehub/play-scala 
+    desc: Play project template for Scala users
+
+  - repo: ymasory/sbt-code-quality 
+    desc: CheckStyle and PMD for Java projects
+
+  - repo: ymasory/sbt Generic 
+    desc: sbt project for projects using GitHub
+
+  - repo: adinapoli/sbt-revolver 
+    desc: Generic sbt project with sbt-revolver
+
+  - repo: adinapoli/scalaz-revolver 
+    desc: Generic sbt project with scalaz 7 and sbt-revolver
+
+  - repo: vdemeester/java-mvn-vaadin 
+    desc: Maven Java project with vaadin dependencies
+
+  - repo: gfrison/proto-app 
+    desc: archetype of any Java or Groovy standalone application based on Spring (Grails DSL) and Gradle
+
+  - repo: davececere/unfiltered-squeryl-war.g8 
+    desc: Full persistent REST api of a single resource. SBT, Scala, Unfiltered, Squeryl, .war build artifact
+
+  - repo: marceloemanoel/gradle-plugin-template.g8 
+    desc: Gradle plugin template with info for deploy at maven central.
+
+  - repo: dkrieg/scalatra-angularjs-seed.g8 
+    desc: Template for web app with Scalatra, AngularJS, AngularUI-Boostrap, CoffeeScript, Less, Jasmine, Scala 2.10.0, sbt 0.12.2.
+
+  - repo: jugchennai/scalafx.g8 
+    desc: Creates a scalaFX project with build support of sbt and dependencies.- 
