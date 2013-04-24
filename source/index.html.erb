@@ -40,9 +40,10 @@ layout: false
       
       <% repos.each do |repo| %>
         <div class="row repo" style="margin-top:20px;" data-keywords="<%=keywords repo%>">
+
           <div class="span8 offset2">
             <div class="tile">
-              <h2><%=repo["repo"]%></h2>
+              <h2><a href="http://github.com/<%=repo["repo"]%>.g8" style="text-decoration:none;"><%=repo["repo"]%></a></h2>
               <h4><%=repo["desc"]%></h4>
             </div>
           </div>
