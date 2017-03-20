@@ -116,3 +116,16 @@ repos:
 
   - repo: orhanbalci/akka-http-microservice.g8
     desc: Akka-Http rest service skeleton using Slick FRM 
+    
+  - repo: lloydmeta/seed-scala.g8
+    desc: Scala skeleton project w/ Scalatest, Scalafmt, Wartremover, Coursier and scalac options configured
+    
+  - repo: lloydmeta/slim-play.g8
+    desc: A template for a really slim Play app that is almost Sinatra-like.
+    
+  - repo: lloydmeta/ctdi-play.g8
+    desc: Compile-time DI Play template. Includes test harnesses that work w/ Scalatest
+    
+    
+    
+    
