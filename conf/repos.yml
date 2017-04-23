@@ -63,16 +63,16 @@ repos:
   - repo: akollegger/unfiltered-neo4j-on-heroku 
     desc: Unfiltered, dispatch to Neo4j, host on Heroku
 
-  - repo: jrevault/scalatra-squeryl.g8 
+  - repo: jrevault/scalatra-squeryl
     desc: SBT, Scalatra, Squeryl with usage samples, includes several plugins
 
-  - repo: exu/phalcon.g8.git 
+  - repo: exu/phalcon
     desc: CPhalcon basic template
 
-  - repo: jackywyz/sbtweb-app.g8.git 
+  - repo: jackywyz/sbtweb-app
     desc: sbt web project basic template
 
-  - repo: mads379/lift-blank.g8 
+  - repo: mads379/lift-blank
     desc: Liftweb minimalistic project
 
   - repo: typesafehub/scala-sbt
@@ -102,29 +102,29 @@ repos:
   - repo: gfrison/proto-app 
     desc: archetype of any Java or Groovy standalone application based on Spring (Grails DSL) and Gradle
 
-  - repo: davececere/unfiltered-squeryl-war.g8 
+  - repo: davececere/unfiltered-squeryl-war
     desc: Full persistent REST api of a single resource. SBT, Scala, Unfiltered, Squeryl, .war build artifact
 
-  - repo: marceloemanoel/gradle-plugin-template.g8 
+  - repo: marceloemanoel/gradle-plugin-template
     desc: Gradle plugin template with info for deploy at maven central.
 
-  - repo: dkrieg/scalatra-angularjs-seed.g8 
+  - repo: dkrieg/scalatra-angularjs-seed
     desc: Template for web app with Scalatra, AngularJS, AngularUI-Boostrap, CoffeeScript, Less, Jasmine, Scala 2.10.0, sbt 0.12.2.
 
-  - repo: jugchennai/scalafx.g8 
+  - repo: jugchennai/scalafx
     desc: Creates a scalaFX project with build support of sbt and dependencies.- 
 
-  - repo: orhanbalci/akka-http-microservice.g8
+  - repo: orhanbalci/akka-http-microservice
     desc: Akka-Http rest service skeleton using Slick FRM 
     
-  - repo: lloydmeta/seed-scala.g8
+  - repo: lloydmeta/seed-scala
     desc: Scala skeleton project w/ Scalatest, Scalafmt, Wartremover, Coursier and scalac options configured
     
-  - repo: lloydmeta/slim-play.g8
+  - repo: lloydmeta/slim-play
     desc: A template for a really slim Play app that is almost Sinatra-like.
     
-  - repo: lloydmeta/ctdi-play.g8
+  - repo: lloydmeta/ctdi-play
     desc: Compile-time DI Play template. Includes test harnesses that work w/ Scalatest
     
-  - repo: silvaren/akka-http.g8
+  - repo: silvaren/akka-http
     desc: Akka HTTP microservice with easy start/stop controls and other features
