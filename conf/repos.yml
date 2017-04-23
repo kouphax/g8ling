@@ -126,6 +126,5 @@ repos:
   - repo: lloydmeta/ctdi-play.g8
     desc: Compile-time DI Play template. Includes test harnesses that work w/ Scalatest
     
-    
-    
-    
+  - repo: silvaren/akka-http.g8
+    desc: Akka HTTP microservice with easy start/stop controls and other features
